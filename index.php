@@ -23,7 +23,7 @@
             <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Entrer your password">
         </div>
         <div class="d-grid">
-            <a href="./dashboard.html" type="submit" class="btn btn-info m-3 text-white fw-bold">SIGN IN</a>
+            <a href="./dashboard.php" type="submit" class="btn btn-info m-3 text-white fw-bold">SIGN IN</a>
         </div>
         <p class="text-center pt-3">Forgot your password? <span class=""><a href="#" class="text-info fw-bold">Reset Password</a></span></p>
     </form>

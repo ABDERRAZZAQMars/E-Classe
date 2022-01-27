@@ -14,40 +14,16 @@
     <div class="conatiner-fluid" style="overflow-x: hidden;">
         <div class="row">
             <input type="checkbox" id="menu" class="d-none">
-            <!--Side Bare-->
-            <nav id="nav-menu" class="col-lg-2 col-md-3 col-sm-6" style="background-color: #FAFFC1; height: 100vh;">
-                <div class="mt-3 d-flex justify-content-between align-items-center">
-                    <h4 class="ms-3 fw-bold"><span class="text-info">|</span> E-classe</h4>
-                    <label id="btnmenu" style="transform: rotate(180deg);" for="menu"><img src="./Icones/menu.svg" alt="menu-icone"></label>
-                </div>
-                <div class="img mt-4 text-center">
-                    <img src="./Iamges/youcode.png" alt="image Admin" class="rounded-circle mx-auto d-block">
-                    <h4 class="pt-3">Admin name</h4>
-                    <h6 class="text-info">Admin</h6>
-                </div>
-                <div class="mt-5">
-                    <a href="./dashboard.html" class="mt-3 w-75 mx-auto text-dark btn btn-outline-info nav-link border-0"><img src="./Icones/Home.svg" alt="home-icone" style="margin-right: 45px;">Home</a>
-                    <a href="#" class="mt-3 w-75 mx-auto text-dark btn btn-outline-info nav-link border-0"><img src="./Icones/Course.svg" alt="Course-icone" style="margin-right: 40px;">Course</a>
-                    <a href="./student.html" class="mt-3 w-75 mx-auto text-dark btn btn-outline-info nav-link border-0"><img src="./Icones/Students.svg" alt="Students-icone" style="margin-right: 26px;">Students</a>
-                    <a href="./payment.html" class="mt-3 w-75 mx-auto text-dark btn btn-outline-info nav-link border-0"><img src="./Icones/Payment.svg" alt="Payment-icone" style="margin-right: 30px;">Payment</a>
-                    <a href="#" class="mt-3 w-75 mx-auto text-dark btn btn-outline-info nav-link border-0"><img src="./Icones/Report.svg" alt="Report-icone" style="margin-right: 44px;">Report</a>
-                    <a href="#" class="mt-3 w-75 mx-auto text-dark btn btn-outline-info nav-link border-0"><img src="./Icones/Settings.svg" alt="Settings-icone" style="margin-right: 34px;">Settings</a>
-                    <a href="./index.html" class="mt-5 mx-auto w-75 text-dark btn btn-outline-info nav-link border-0">Logout<img src="./Icones/Logout.svg " alt="Logout-icone " class="ms-4"></a>
-                </div>
-            </nav>
+            <!--Side Bar-->
+            <?php
+                include("./sidebar.php");
+            ?>
             <!--Nave Bar-->
             <div class="col">
                 <div class="row">
-                    <nav class="col m-4 d-flex justify-content-between">
-                        <label for="menu"><img src="./Icones/menu.svg" alt="menu-icone"></label>
-                        <div>
-                            <div class="d-inline-block border border-grey border-1 rounded-3 me-2">
-                                <input type="search" placeholder="Searsh..." class="border-0">
-                                <img src="./Icones/search.svg" alt="" class="me-1">
-                            </div>
-                            <img src="./Icones/notifications.svg" alt="notification-icone">
-                        </div>
-                    </nav>
+                    <?php
+                        include("./navbar.php");
+                    ?>
                     <!--Cartes-->
                     <div class="conatiner-fluid">
                         <div class="row mx-auto mt-3 ">
